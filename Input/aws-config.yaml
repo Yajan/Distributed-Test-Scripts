@@ -1,0 +1,23 @@
+ami:
+    #Image details and region
+  - image-id: ami-057a6a65
+  - security-group-id: sg-ef230c96
+  
+instance:
+    #Number of Systems/Instances on which the execution should take place
+  - 5
+
+operatingsystem:
+  - windows
+  
+instance-type:
+  - t2.large
+  
+keyname:
+  - cal-windows
+  
+region:
+  - us-west-1
+
+subnet:
+  - subnet-b798f4ec 
